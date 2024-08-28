@@ -1,0 +1,59 @@
+html{
+    min-height: 200vh;
+}
+
+.container{
+    top: 10px;
+    font-size: 20PX;
+    font-style: italic;
+    display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+}
+.example01{
+    max-width: 200px;
+    border: 3px solid #73AD21;
+    height: 200px;
+    margin: 3px;
+}
+/* .example01:hover{
+    background-color: yellow; */
+/* } */
+.example02{
+    max-width: 200px;
+    border: 3px solid #73AD21; 
+    background-color: green;
+    height: 200px;
+    margin: 3px;
+}
+/* .example02:hover{
+    background-color: blue;
+} */
+.sticky{
+    height: 200px;
+    max-width: 200px;
+    padding: 4px;
+    border: 2px solid #73A476;
+    background: red;
+    color: white;
+    margin: 3px;
+    margin-left: -150px;
+    transition: 2s;
+}
+
+.contoh-hover{
+    height: 200px;
+    max-width: 200px;
+    background-color: red;
+    color: wheat;
+    margin-left: -150px;
+    transition: 1s;
+}
+.contoh-hover:hover{
+    margin-left: 0;
+}
+
+.sticky:hover{
+    background-color: blue;
+    margin-left: 0;
+}

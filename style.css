@@ -1,0 +1,30 @@
+body {
+  font-family: "Lora", serif;
+  
+}
+
+ul li{
+    
+    font-weight: 500;
+    font-color: #fff;
+}
+
+/* li a{ 
+    font-family: "lora", serif;
+    text-hover: 2px solid; */
+    
+.card-body:hover{
+  background-color: #e0e0e0;
+
+}
+span{
+    font-size: 14px;
+}
+
+.navbar-brand {
+  font-weight: 700;
+}
+.nav-link.active {
+  font-weight: 700;
+}
+ 
